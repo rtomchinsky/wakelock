@@ -1,0 +1,44 @@
+.hidden {
+  display: none !important;
+}
+
+html,
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+#lock {
+  height: 100vh;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#lock-button {
+  min-width: 128px;
+
+  cursor: pointer;
+  background: none;
+  border: none;
+
+  background-color: #3f51b5;
+  color: white;
+  padding: 1rem 2rem;
+}
+
+#lock-button:hover {
+  background-color: #7986cb;
+  color: white;
+}
+
+#lock-button:active {
+  background-color: #303f9f;
+  color: white;
+}
+
+#lock-message {
+}
